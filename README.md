@@ -177,7 +177,7 @@ To run the SereneSounds app, execute the following command in your terminal:
 ```bash
 streamlit run app.py  
 ```
-Visit the provided local URL (usually http://localhost:8501) in your web browser to access the app. You can now search for movies and explore their details.
+Visit the provided local URL (usually http://localhost:8501) in your web browser to access the app. <br>
 
 or directly go to deployed server url : https://serenesounds.streamlit.app/
 
