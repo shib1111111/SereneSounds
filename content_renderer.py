@@ -7,6 +7,10 @@ from recommenders.als_recommenders import als_similarity_based_recommend
 
 # Set up the Streamlit app
 def setup_app():
+    st.set_page_config(
+        page_title="SereneSounds",
+        layout='wide'
+    )
     st.markdown("<H1 class='big-title'>SereneSounds</H1>", unsafe_allow_html=True)
     st.markdown("<h3 class='small-subtitle'>A Sophisticated Music Curation Engine</h3>", unsafe_allow_html=True)
 
